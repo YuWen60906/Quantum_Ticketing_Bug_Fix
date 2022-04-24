@@ -1,235 +1,83 @@
-Hello World
-<p align="center">
-    <a href="https://uifort.com" title="UiFort.com">
-        <img width=256px height=256px src="https://demo.uifort.com/github-static-assets/ui-fort-logo.png" alt="UiFort">
-    </a>
-</p>
-<h1 align="center">
-    <a href="https://uifort.com/template/bamburgh-react-admin-dashboard-reactstrap-pro">Bamburgh React Admin Dashboard with Reactstrap PRO</a>
-    <br>
-    <a href="https://twitter.com/intent/tweet?url=https://uifort.com/template/bamburgh-react-admin-dashboard-reactstrap-pro&text=Browse through the live previews to see just how powerful this admin template really is!">
-        <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
-    </a>
-    <a href="https://twitter.com/uifort1">
-        <img src="https://img.shields.io/twitter/follow/uifort1.svg?style=social&label=Follow" />
-    </a>
-</h1>
-<div align="center">
+# Maximum Accountability Ticketing ("Que")  by Quantum Strategies.
+❗ **REMEMBER:** Minimum Viable Product (V1 baseline working version without any frills) is set for **April 6th, 2022.** ❗
+####
 
-  ![version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-  [![GitHub Issues open](https://img.shields.io/github/issues/uifort/bamburgh-react-admin-dashboard-reactstrap-pro.svg)](https://github.com/uifort/bamburgh-react-admin-dashboard-reactstrap-pro/issues)
-  [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/uifort/bamburgh-react-admin-dashboard-reactstrap-pro.svg?maxAge=2592000)](https://github.com/uifort/bamburgh-react-admin-dashboard-reactstrap-pro/issues?q=is%3Aissue+is%3Aclosed)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/uifort/bamburgh-react-admin-dashboard-reactstrap-pro.svg)](https://github.com/uifort/bamburgh-react-admin-dashboard-reactstrap-pro/pulls)
-  [![License](https://img.shields.io/badge/license-UiFort-blue.svg)](/LICENSE)
+## Branching convention:
+feat/staging/{issue#}-{feature-name}
+Example: Issue #163, status sort, would be feat/staging/163-status-sort
 
-</div>
+When you are working on a task, always make sure you:
+1) Create an issue (if it isn't already created) for the task you are working on.
+2) Assign yourself to the issue. Doing this makes sure someone else does not not accidentally work on the same issue, or - if they want to jump in and help you - they know it's currently being worked on and can communicate with you.
 
-<h5 align="center">350+ custom-made, beautiful components, widgets, pages, dashboards and applications.</h5>
+Also, be sure to create a branch with the issue # included in the name, since it is guaranteed the branch will be available, and all issue #'s are unique. An example of this can be seen above.
 
-<h4 align="center">This admin template is a complete frontend solution for easy-building applications or presentation websites. It&#39;s fully responsive and designed by professional UI&#x2F;UX designers and developers.</h4>
+**Easy Way to Do This:** A good way to do this is on the page of the actual issue. There is an option on the right-side navigation bar under 'Development' -> 'Create a Branch'. If you click on create a branch, it creates a branch from the issue, allowing anyone to be able to understand exactly which issue correlates to which branch. **Be sure to click on "Change branch source" and set it as "staging".**
 
-<br />
+![image](https://user-images.githubusercontent.com/43220854/160661887-53abe533-d596-4fc6-9e66-b609573bdbdb.png)
 
-<img src="https://demo.uifort.com/github-static-assets/bamburgh-react-admin-dashboard-reactstrap-pro.jpg" alt="Bamburgh React Admin Dashboard with Reactstrap PRO">
+<img width="446" alt="Screen Shot 2022-03-29 at 12 54 58 PM" src="https://user-images.githubusercontent.com/43220854/160665231-beb6aedb-c588-40db-87d9-02c26bef3e74.png">
 
----
 
-<h2 align="center">
-    bamburgh Admin Dashboard Template is available for multiple frameworks
-</h2>
+## OUR CURRENT DEVELOPMENT STACK:
 
-<p align="center">Click the buttons below to visit their respective presentation page:</p>
+#### CI
+![GitHub Actions](https://img.shields.io/badge/githubactions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+#### Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+#### Frameworks
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+#### Languages
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-<table align="center">
-    <tr>
-        <td>
-            <a align="center" href="https://uifort.com/template/bamburgh-react-admin-dashboard-reactstrap-pro" title="Click to visit the presentation page for bamburgh React version">
-                <b align="center">bamburgh for React</b>
-                <br><br>
-                <img src="https://demo.uifort.com/github-static-assets/framework-logo/react-framework-logo.png" alt="Bamburgh React Admin Dashboard with Reactstrap PRO">
-                <br>
-                <b align="center">Click for details</b>
-            </a>
-        </td>
-        <td>
-            <a align="center" href="https://uifort.com/template/bamburgh-angular-admin-dashboard-ngx-bootstrap-pro" title="Click to visit the presentation page for bamburgh Angular version">
-                <b align="center">bamburgh for Angular</b>
-                <br><br>
-                <img src="https://demo.uifort.com/github-static-assets/framework-logo/angular-framework-logo.png" alt="Bamburgh React Admin Dashboard with Reactstrap PRO">
-                <br>
-                <b align="center">Click for details</b>
-            </a>
-        </td>
-        <td>
-            <b align="center">bamburgh for Vue.js</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/vue-framework-logo.png" alt="bamburgh for Vue.js">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-        <td>
-            <b align="center">bamburgh for HTML5/jQuery</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/html-framework-logo.png" alt="bamburgh for HTML5/jQuery">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <b align="center">bamburgh for Laravel</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/laravel-framework-logo.png" alt="bamburgh for Laravel">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-        <td align="center">
-            <b align="center">bamburgh for Node.js</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/nodejs-framework-logo.png" alt="bamburgh for Node.js">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-        <td align="center">
-            <b align="center">bamburgh for ASP.NET</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/asp-framework-logo.png" alt="bamburgh for ASP.NET">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-        <td align="center">
-            <b align="center">bamburgh for Nuxt.js</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/nuxtjs-framework-logo.png" alt="bamburgh for Nuxt.js">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b align="center">bamburgh for React Native</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/react-native-framework-logo.png" alt="bamburgh for React Native">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-        <td>
-            <b align="center">bamburgh for Flutter</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/flutter-framework-logo.png" alt="bamburgh for Flutter">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-        <td align="center">
-            <b align="center">bamburgh for Next.js</b>
-            <br><br>
-            <img src="https://demo.uifort.com/github-static-assets/framework-logo/nextjs-framework-logo.png" alt="bamburgh for Next.js">
-            <br>
-            <i align="center">Not yet available</i>
-        </td>
-    </tr>
-</table>
+## Component Development Priority 📈
 
----
+- 👮 Admin
+- End User Portal
 
-<h2>
-    Online Documentation
-</h2>
+## Setup ⚙️
 
-<p>For each of our products we create an extensive documentation so that developers can easily navigate, understand and use all the features that, in this case, Bamburgh React Admin Dashboard with Reactstrap PRO has to offer!</p>
-<p>To view the available online documentation files please visit the following link:</p>
-<b>
-    <a href="https://docs.uifort.com/bamburgh-react-admin-dashboard-reactstrap-pro-docs" title="Click to view the online documentation for Bamburgh React Admin Dashboard with Reactstrap PRO">
-        Bamburgh React Admin Dashboard with Reactstrap PRO Documentation
-    </a>
-</b>
+When first checking out to the `staging` branch. 
 
----
+Run `npm i` in the following directories:
 
-<h2>
-    Live Preview
-</h2>
+* root
+* `client`
+* `client/src/services/`
+* `server`
 
-<p>You can view a live preview instance here:</p>
-<b>
-    <a href="https://demo.uifort.com/bamburgh-react-admin-dashboard-reactstrap-pro-demo" title="Click to view the live preview for Bamburgh React Admin Dashboard with Reactstrap PRO">
-        Bamburgh React Admin Dashboard with Reactstrap PRO Live Preview
-    </a>
-</b>
+## Open Issues 🔥
 
----
+* [Admin](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F8)
+* [GeneralNavigation](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F10)
+* [MainPage](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F3)
+* [Reporting](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F7)
+* [TicketPage](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F4)
+* [User](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F9)
+* [Login Page](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F9)
+* [Overall](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aopen+is%3Aissue+project%3Akylefisher4d%2FQuantum_Ticketing%2F11)
 
-<h2>
-    FREE Version
-</h2>
+## Closed Issues ✔️
 
-<p>bamburgh Admin Dashboard Template also comes with a slimmed down, FREE version. This contains a limited set of components and features.</p>
-<p>bamburgh Admin Dashboard Template FREE is open source and was released under an <b>MIT license</b>!</p>
-<p>
-    You can read more details about the FREE version by following the links bellow:
-</p>
-<b>
-    <a href="https://uifort.com/template/bamburgh-react-admin-dashboard-reactstrap-free" title="Click to view Bamburgh React Admin Dashboard with Reactstrap PRO Admin Dashboard Template FREE presentation page">
-        Bamburgh React Admin Dashboard with Reactstrap PRO FREE Presentation Page
-    </a>
-    <br><br>
-    <a href="https://demo.uifort.com/bamburgh-react-admin-dashboard-reactstrap-free-demo" title="Click to view Bamburgh React Admin Dashboard with Reactstrap PRO Admin Dashboard Template FREE live preview">
-        Bamburgh React Admin Dashboard with Reactstrap PRO FREE Live Preview
-    </a>
-    <br><br>
-    <a href="https://docs.uifort.com/bamburgh-react-admin-dashboard-reactstrap-free-docs" title="Click to view Bamburgh React Admin Dashboard with Reactstrap PRO Admin Dashboard Template FREE documentation">
-        Bamburgh React Admin Dashboard with Reactstrap PRO FREE Documentation
-    </a>
-</b>
+* [Admin](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F8)
+* [GeneralNavigation](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F10)
+* [MainPage](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F3)
+* [Reporting](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F7)
+* [TicketPage](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F4)
+* [User](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F9)
+* [Login Page](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F12)
+* [Overall](https://github.com/kylefisher4d/Quantum_Ticketing/issues?q=is%3Aissue+is%3Aclosed+project%3Akylefisher4d%2FQuantum_Ticketing%2F11)
 
----
 
-<h2>
-    Browser Support
-</h2>
-<p>
-    We're supporting the last two versions of the following browsers:
-</p>
-<p>
-<img src="https://demo.uifort.com/github-assets/browsers/chrome.png" width="64" height="64"> <img src="https://demo.uifort.com/github-assets/browsers/firefox.png" width="64" height="64"> <img src="https://demo.uifort.com/github-assets/browsers/edge.png" width="64" height="64"> <img src="https://demo.uifort.com/github-assets/browsers/safari.png" width="64" height="64"> <img src="https://demo.uifort.com/github-assets/browsers/opera.png" width="64" height="64">
-</p>
+## Help 🆘
 
----
-
-<h2>
-    Support or Questions
-</h2>
-<p>
-    You can contact us either via our contact page ([UiFort Contact](https://uifort.com/contact-us)) or you could chat with us using the integrated chat widget from our live previews or homepage.
-</p>
-<b>
-    <a href="https://uifort.com/support-center" title="Click to view the UiFort Support Center">
-        UiFort Support Center
-    </a>
-</b>
----
-
-<h2>
-    Issue Reporting
-</h2>
-
-<p>We use GitHub Issues as the official bug tracker for all our products. Here are some advices for anyone who wants to report an issue:</p>
-
-1. Make sure that you are using the latest version of this product. To do that you could check the [CHANGELOG](./CHANGELOG.md).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
----
-
-### Social Media
-
-<p>Follow us on any of our social media accounts to find out when we release new products or updates.</p>
-<p>We send out discount coupons from time to time to our subscribers.</p>
-<p><b>Facebook: </b><a href="https://www.facebook.com/UiFort">https:&#x2F;&#x2F;www.facebook.com&#x2F;UiFort</a></p>
-<p><b>Twitter: </b><a href="https://twitter.com/uifort1">https:&#x2F;&#x2F;twitter.com&#x2F;uifort1</a></p>
-<p><b>Instagram: </b><a href="https://www.instagram.com/uifort1">https:&#x2F;&#x2F;www.instagram.com&#x2F;uifort1</a></p>
-<p><b>Discord: </b><a href="https://discord.gg/mddFBQX">https:&#x2F;&#x2F;discord.gg&#x2F;mddFBQX</a></p>
-<p><b>Dribbble: </b><a href="https://dribbble.com/UiFort">https:&#x2F;&#x2F;dribbble.com&#x2F;UiFort</a></p>
-<p><b>Github: </b><a href="https://github.com/uifort">https:&#x2F;&#x2F;github.com&#x2F;uifort</a></p>
-
+[Explanation of Issues and the Project Board](https://docs.google.com/document/d/19gBJxFuxmFIVlH6spd9LmZd2EiJpgAH06P3cW3Y0OHk/edit)
