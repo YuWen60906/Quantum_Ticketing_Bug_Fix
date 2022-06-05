@@ -52,7 +52,6 @@ Run `npm i` in the following directories:
 
 * root
 * `client`
-* `client/src/services/`
 * `server`
 
 ## Open Issues 🔥
